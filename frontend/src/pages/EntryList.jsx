@@ -21,7 +21,7 @@ function MyEntries() {
                 <h3>{oneEntry.title}</h3>
                 <p>{oneEntry.entryBody}</p>
                 <p>{oneEntry.isPublic}</p>
-                <Link to={`entries/${oneEntry._id}`}>See Details</Link>
+                <Link to={`/entries/${oneEntry._id}`}>See Details</Link>
             </div>) :<h2>No Entries made yet</h2>}
         </div>
     )
